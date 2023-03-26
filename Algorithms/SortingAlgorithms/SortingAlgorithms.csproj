@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Buble Sort\" />
+    <Compile Remove="Buble Sort\**" />
+    <EmbeddedResource Remove="Buble Sort\**" />
+    <None Remove="Buble Sort\**" />
   </ItemGroup>
 
 </Project>
