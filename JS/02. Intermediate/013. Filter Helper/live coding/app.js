@@ -22,4 +22,4 @@ const computers = [
   { ram: 32, hdd: 400 },
 ];
 
-console.log(computers.filter(com => com.ram > 16));
+console.log(computers.filter((com) => com.ram > 16));

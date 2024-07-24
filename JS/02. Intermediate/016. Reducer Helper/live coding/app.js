@@ -45,11 +45,7 @@ const people = [
 
 // Ternary Operator
 const oldestAge = people.reduce((p, c) => (c.age > p ? c.age : p), 0);
-const youngestAge = people.reduce((p, c) => (c.age < p ? c.age : p), 30);
-
 console.log(oldestAge);
-console.log(youngestAge);
-
 // ------------------------------------
 
 // -------------------------------------

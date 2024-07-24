@@ -8,16 +8,4 @@ function myFunction(num) {
 }
 
 const newArr = numbers.map(myFunction);
-console.log(newArr); 
-
-let t = 0;
-newArr.forEach(e => {
-  t += e;
-});
-console.log(t);
-
-let z = 0;
-numbers.forEach(element => {
-  z += myFunction(element);
-});
-console.log(z);
+console.log(newArr);
