@@ -1,4 +1,0 @@
-// classlist
-// add()
-// remove()
-// toggle()
