@@ -1,3 +1,0 @@
-// innerText
-// textContent
-// innerHTML
