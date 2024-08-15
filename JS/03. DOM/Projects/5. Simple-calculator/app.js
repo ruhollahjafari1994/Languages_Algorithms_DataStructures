@@ -12,7 +12,7 @@ document.getElementById("btn").addEventListener("click", () => {
     case "min":
       result.innerHTML = +num1 - +num2;
       break;
-    case "dev":
+    case "dev": 
       result.innerHTML = +num1 / +num2;
       break;
     case "multi":
