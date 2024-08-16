@@ -54,3 +54,4 @@ tl.to(".box1", {
     scale: 1,
     opacity: 1,
   });
+ 
