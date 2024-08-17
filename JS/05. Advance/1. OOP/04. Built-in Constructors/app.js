@@ -9,7 +9,7 @@ const num2 = 7;
 console.log(typeof num2); // Output: "number"
 
 // --> String Constructor
-const str1 = new String("Hello");
+const str1 = new String("Hello");  
 console.log(typeof str1); // Output: "object"
 console.log(str1.valueOf()); // Output: "Hello"
 
