@@ -23,7 +23,7 @@ const obj = {
     // this keyword will now refer to the owner obj which in this case is
     // the (obj)
     // return this;
-    return `${this.name} - ${this.lastName}`;
+    return `${this.name} ${this.lastName}`;
   },
 };
 
