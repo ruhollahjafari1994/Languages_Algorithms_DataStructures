@@ -11,19 +11,13 @@ import { Component } from "react";
 //     )
 // }
 // }
-//Use Object Destructure
-//Pure and UnPure 
-//Props are Read-Only
-//Change State and Props force React to ReRender 
+//Use Props Children
 const Counter = (p)=>{
-    console.log(p.count)
-    console.log(p.fullName)
-    console.log(p.myArrray)
-    console.log(p.isLoggedIn)
-
     return(
         <div>
              <p>شمارنده: {p.count}</p>
+             <p>شمارنده: {p.children}</p>
+
         </div>
     )
 }

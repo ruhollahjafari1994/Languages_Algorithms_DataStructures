@@ -12,14 +12,15 @@ import './MyCounter.css';
 //         )
 //     }
 //  }
+//Remove self closing
 const MyCounter=()=>{
     return(
         <div className="MyCounter">
                      <h1>شمارنده من</h1>
                      <br/>
-                     <Counter count={520}/>
-                     <Counter fullName="روح اله جعفری"/>
-                     <Counter myArrray={[1,2,3,5]} isLoggedIn={true}/>
+                     <Counter  count={520}>
+                        این شمارنده من است
+                     </Counter>
 
 
         </div>
