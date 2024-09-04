@@ -11,7 +11,8 @@ import { Component } from "react";
 //     )
 // }
 // }
-//Use Props Children
+//Use default props
+
 const Counter = (p)=>{
     return(
         <div>

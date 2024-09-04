@@ -18,10 +18,9 @@ const MyCounter=()=>{
         <div className="MyCounter">
                      <h1>شمارنده من</h1>
                      <br/>
-                     <Counter  count={520}>
+                     <Counter>
                         این شمارنده من است
                      </Counter>
-
 
         </div>
     )
