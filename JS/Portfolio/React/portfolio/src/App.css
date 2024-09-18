@@ -1,0 +1,25 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: #E8EAF6;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 1400px;
+  height: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  width: 70%;
+  background-color: #FFEB3B;
+  padding: 40px;
+  position: relative;
+}
