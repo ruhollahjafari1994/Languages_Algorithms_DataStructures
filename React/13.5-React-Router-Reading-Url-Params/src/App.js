@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import Clock from "./components/Clock";
+
 import "./App.css";
 
 /*
@@ -15,7 +17,10 @@ class App extends Component {
     super();
     console.log("App.js - constructor()");
 
-    this.state = { date: new Date(), showClock: true, color: false };
+    this.state = { date: new Date()};
+
+    this.colorChange = this.colorChange.bind(this);
+    this.clockChange = this.clockChange.bind(this);
   }
 
   static getDerivedStateFromProps(props, state) {
@@ -39,12 +44,26 @@ class App extends Component {
     this.setState({ date: new Date() });
   }
 
+  clockChange() {
+    this.setState({ showClock: !this.state.showClock });
+  }
+
+  colorChange() {
+    this.setState({ color: !this.state.color });
+  }
+
   render() {
     console.log("App.js - render()");
+
+    const { date, showClock, color } = this.state;
+
     return (
       <div className="App">
         <p>سلام دوستان عزیز</p>
-        <p>ساعت در حال حاضر برابر : {this.state.date.toLocaleTimeString()}</p>
+        {showClock ? <Clock date={date} color={color} /> : null}
+        <hr />
+        <button onClick={this.clockChange}>نمایش ساعت</button>
+        <button onClick={this.colorChange}>تغییر رنگ</button>
       </div>
     );
   }
