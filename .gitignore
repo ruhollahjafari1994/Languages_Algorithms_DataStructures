@@ -348,3 +348,61 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+# Angular related
+node_modules/
+dist/
+build/
+tmp/
+
+# Compiled output
+*.log
+*.tsbuildinfo
+
+# TypeScript cache
+*.tscache
+
+# Angular build artifacts
+.angular/
+
+# Environment Variables
+.env
+.env.*
+
+# Coverage output
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# IDE Specific files
+.vscode/
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio related
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cachefile
+*.VC.db
+.vs/
+
+# Mono related
+mono_crash.*
+
+# Publish related
+publish/
+*.publishproj
+
+# Miscellaneous
+*~backup
+~$*
